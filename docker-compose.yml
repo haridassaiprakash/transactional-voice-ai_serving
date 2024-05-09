@@ -14,6 +14,7 @@ services:
       - AZURE_STORAGE_ACCESS_KEY
       - AZURE_BLOB_STORE_NAME
       - AZURE_BLOB_CONTAINER
+      - LOG_FILE_PATH
     ports:
       - 8008:8008
     depends_on:
