@@ -4,6 +4,7 @@ import json
 import base64
 import datetime
 import shortuuid
+import logging
 from urllib.request import urlopen
 
 from fastapi import FastAPI, Depends, Header, HTTPException, Request, Response, status
@@ -14,6 +15,20 @@ from fastapi.middleware.cors import CORSMiddleware
 from schema import *
 from utils import batchify, get_raw_audio_from_file_bytes
 
+# Initialize logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Create a file handler
+LOG_FILE_PATH = os.environ["LOG_FILE_PATH"]
+file_handler = logging.FileHandler(LOG_FILE_PATH)
+file_handler.setLevel(logging.ERROR)
+
+# Create a logging format
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
 # ## Read environment variables only during development purpose ##
 # from dotenv import load_dotenv
 # load_dotenv()
@@ -22,7 +37,6 @@ STANDARD_SAMPLING_RATE = int(os.environ["STANDARD_SAMPLING_RATE"])
 STANDARD_BATCH_SIZE = int(os.environ["STANDARD_BATCH_SIZE"])
 INFERENCE_SERVER_HOST = os.environ["INFERENCE_SERVER_HOST"]
 DEFAULT_API_KEY_VALUE = os.environ["DEFAULT_API_KEY_VALUE"]
-
 # Logging setup
 ENABLE_LOGGING = os.environ.get("ENABLE_LOGGING", "false").lower() == "true"
 if ENABLE_LOGGING:
@@ -80,7 +94,14 @@ async def inference(request: InferenceRequest, response: Response):
         if input_item.audioContent:
             file_bytes = base64.b64decode(input_item.audioContent)
         elif input_item.audioUri:
-            file_bytes = urlopen(input_item.audioUri).read()
+            try:
+                file_bytes = urlopen(input_item.audioUri).read()
+            except Exception as e:
+                logger.error(f"Error fetching audio from URI: {e}")
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail={"message": f"Error fetching audio from URI: {e}"}
+                )
         else:
             response.status_code = status.HTTP_400_BAD_REQUEST
             return InferenceResponse(
@@ -98,9 +119,12 @@ async def inference(request: InferenceRequest, response: Response):
         }
 
         if enable_logging:
-            audio_blob_path = f"{metadata['input_id']}/audio.{request.config.audioFormat}"
-            blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=audio_blob_path)
-            blob_client.upload_blob(file_bytes)
+            try:
+                audio_blob_path = f"{metadata['input_id']}/audio.{request.config.audioFormat}"
+                blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=audio_blob_path)
+                blob_client.upload_blob(file_bytes)
+            except Exception as e:
+                logger.error(f"Error uploading audio blob: {e}")
 
         raw_audio = get_raw_audio_from_file_bytes(file_bytes, standard_sampling_rate=STANDARD_SAMPLING_RATE)
 
@@ -111,40 +135,47 @@ async def inference(request: InferenceRequest, response: Response):
     final_results = []
     batches = batchify(raw_audio_list, batch_size=STANDARD_BATCH_SIZE)
     for i in range(len(batches)):
-        # TODO: Add try-catch and handle errors, as well as log it
-        batch_result = inference_client.run_batch_inference(batch=batches[i], lang_code=language, batch_size=STANDARD_BATCH_SIZE)
-        
-        for item_index, result_json in enumerate(batch_result):
-            input_index = i*STANDARD_BATCH_SIZE + item_index
+        try:
+            batch_result = inference_client.run_batch_inference(batch=batches[i], lang_code=language, batch_size=STANDARD_BATCH_SIZE)
+            
+            for item_index, result_json in enumerate(batch_result):
+                input_index = i*STANDARD_BATCH_SIZE + item_index
 
-            # Convert intermediate format to final format
-            if "tag_entities" in request.config.postProcessors:
-                result = InferenceResult(
-                    id=metadata_list[input_index]["input_id"],
-                    source=result_json["transcript"],
-                    entities=[
-                        Entity(
-                            entity=entity["entity"],
-                            word=entity["word"],
-                            start=entity["start"],
-                            end=entity["end"],
-                            value=entity["value"]
-                        ) for entity in result_json["entities"]
-                    ],
-                    intent=result_json["intent"]
-                )
-            else:
-                result = InferenceResult(
-                    id=metadata_list[input_index]["input_id"],
-                    source=result_json["transcript"])
-            final_results.append(result)
+                # Convert intermediate format to final format
+                if "tag_entities" in request.config.postProcessors:
+                    result = InferenceResult(
+                        id=metadata_list[input_index]["input_id"],
+                        source=result_json["transcript"],
+                        entities=[
+                            Entity(
+                                entity=entity["entity"],
+                                word=entity["word"],
+                                start=entity["start"],
+                                end=entity["end"],
+                                value=entity["value"]
+                            ) for entity in result_json["entities"]
+                        ],
+                        intent=result_json["intent"]
+                    )
+                else:
+                    result = InferenceResult(
+                        id=metadata_list[input_index]["input_id"],
+                        source=result_json["transcript"])
+                final_results.append(result)
 
-            if enable_logging:
-                metadata_list[input_index]["result"] = result.model_dump(mode="json")
-                del metadata_list[input_index]["result"]["input_id"] # Remove redundant field
-                metadata_blob_path = f"{metadata['input_id']}/metadata.json"
-                blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=metadata_blob_path)
-                blob_client.upload_blob(json.dumps(metadata_list[input_index], indent=4))
+                if enable_logging:
+                    try:
+                        metadata_list[input_index]["result"] = result.model_dump(mode="json")
+                        result_json = metadata_list[input_index]["result"] 
+                        result_json["language"] = language
+                        metadata_blob_path = f"{metadata['input_id']}/metadata.json"
+                        blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=metadata_blob_path)
+                        blob_client.upload_blob(json.dumps(result_json, indent=4))  # Upload the JSON data to Azure Blob Storage
+                    except Exception as e:
+                        logger.error(f"Error uploading metadata blob: {e}")
+        except Exception as e:
+            logger.error(f"Error processing batch: {e}")
+
     
     return InferenceResponse(
         output=final_results,
