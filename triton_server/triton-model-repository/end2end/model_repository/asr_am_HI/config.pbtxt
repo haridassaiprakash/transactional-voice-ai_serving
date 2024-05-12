@@ -1,5 +1,5 @@
 name: "asr_am_HI"
-default_model_filename: "model.pt"
+default_model_filename: "model_am_HI.pt"
 platform: "pytorch_libtorch"
 
 max_batch_size: 32
@@ -34,7 +34,7 @@ dynamic_batching { preferred_batch_size: [8,32] }
 instance_group [
     { 
     count: 1
-    kind: KIND_GPU 
+    kind: KIND_CPU 
     }
 ]
 
