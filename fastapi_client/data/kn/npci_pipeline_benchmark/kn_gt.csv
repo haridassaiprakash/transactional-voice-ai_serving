@@ -1,0 +1,472 @@
+URL,True Intent,True Entities
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/QXsN4rAy2dvbAMLxtzBu4P.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ekczo6mLsi44usZt38kEvb.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/WN9jNZ6WGRwerTGQUgZL6d.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-fnAjNLHS8EC6UEo2csxHb5.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-EiJtWfAKUuQpKkVTqjzqx4.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4qutkJ8NwPRjXErCb9s22g.wav,unknown,"[""mobile_number-9036601457""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Cwp9GzeSaMajeNFauZGpn4.wav,unknown,"[""mobile_number-9036601457""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-CC9BEEsmnWF9oWDb8pL7rp.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4SFD9ymS3B48ToNVvEdGVa.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-P8nqzjRH6cbdr9a4QBz8ub.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Zw2dcDWrLQBLutJrevk56w.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-AFiRgXGjFjjVQGzHvEUYBw.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-A3Vax2XQaQqPmD5Sef2UZJ.wav,unknown,"[""mobile_number-9611762793""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-oDHGFyq9mMVtbeig9NUkt9.wav,unknown,"[""mobile_number-9611762793""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-ginDssy9j5t2tHbhmfAuch.wav,unknown,"[""mobile_number-9611762793""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-CJppPWnbJhfz6QyArpZ9P5.wav,unknown,"[""mobile_number-9611762793""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-n3BBxUF694QnxkyEuHxaRs.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-j7U3BDErrXHBkcvdPncRUZ.wav,electricity_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-DKHHoPiheUB44KaaSYsE9L.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Ueq4AJA3eFtjM7tP6BF6AG.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-fQCjAgmzECXW4ZuDKJE7Jq.wav,mobile_recharge_postpaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0028.wav,p2p_transfer,"[""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0029.wav,p2p_transfer,"[""bank_name-bank of baroda""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0030.wav,p2p_transfer,"[""bank_name-bank of maharashtra""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0031.wav,balance_check,"[""bank_name-axis bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0032.wav,balance_check,"[""bank_name-canara bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0033.wav,balance_check,"[""bank_name-punjab national bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0034.wav,p2p_transfer,"[""bank_name-central bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0035.wav,p2p_transfer,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0036.wav,p2p_transfer,"[""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0037.wav,p2p_transfer,"[""bank_name-bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240124-WA0038.wav,p2p_transfer,"[""bank_name-indian bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0039.wav,mobile_recharge_prepaid,"[""telephone_operator-jio""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0041.wav,mobile_recharge_prepaid,"[""telephone_operator-bsnl""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0042.wav,mobile_recharge_prepaid,"[""telephone_operator-bsnl""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0043.wav,mobile_recharge_prepaid,"[""telephone_operator-jio""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0044.wav,mobile_recharge_prepaid,"[""mobile_number-7420386886"", ""telephone_operator-vodafone""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0045.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0046.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0047.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0048.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0049.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0050.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0051.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0052.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0053.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0054.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240129-WA0057.wav,fastag_recharge,"[""vehicle_number-mh04az1122""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240201-WA0026.wav,mobile_recharge_prepaid,"[""amount_of_money-500""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240201-WA0027.wav,p2p_transfer,"[""amount_of_money-300""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-LUj9w4gzdSnet66XpUqf2y.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-VbYBU3TENGzZX8hZjasaLM.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-F4resjpV6rFhsBLamxvhGf.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-dPkfmWUR9SW9jxhTZqNFis.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-eNaQSm5vesdSCzQFzLdhf7.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-dcrSQmGorc6osZwGtknKYE.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-gTVMSXESiK7mWscCuw2PRP.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-UpYpyfD996PA645BpZg6PU.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-WYr8GtduJPq4EzkRjSeFjY.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-PoCfhfZJYz7GDoVbYpMvZH.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-ZMHWMgyPo5z4GPg8Kof6SW.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-axrodDmWmdufoDaBYwLzbo.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3rqFiNUtcNmU5aUUFG6qPT.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RH5PdTL7mQTksnqRMsydHi.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nqQLv8AxEPQkAdbWB7wjPk.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Jyg3HKX6MdSHp9Fyz56Dad.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/VxBEyNoJwGPHpACfTSB6jC.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3zctJ5ZcJZHoZ7wzEmXLze.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/NhoWZ9PANrzwaWd6wb6mRh.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/khPvF6cd2cceuZ866CHkbh.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/dSaHHKJLFcsRVMH2FcACQf.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/fWu5hCugHTp5DgnPZVpmDg.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/A6dJKrXfBZqBodzjDVsaKD.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6Z7kocq7PDugaeAqHqHxJS.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/WYKX5JgFbpBMzgu3aeasbx.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3upNuhqdFsXmUZwjty5v8U.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RKrie7yksDXPZ8WqgSL2hC.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nPuxGCQsSoGCvw5pZTxTwA.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/K3H37ZQhGgTPZ8jbbp3N7f.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kxyziXyEdC42Qpc2Y6xGD4.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mQs8LnJ5NL3BEsAMD3pdXd.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/n5fvkAcRj3tAN2guTib9BU.wav,unknown,"[""mobile_number-9929493947""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/L8bLFVu7LF4o5p9MMtzAXx.wav,unknown,"[""mobile_number-9929493940""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XT6RspqE58wjyJRzoAjA6k.wav,unknown,"[""mobile_number-9929493940""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/QjHiVVquNQFNK6UnDexQvq.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/KcKqSx6c3GSt9QfpxLLZEX.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8h7Jm9rSEWxNMAQ7Gu4Tu3.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GnP77fK33j2sMEAuDRnYWk.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8chrxSFm48pp5P75qq5wQh.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/CLpVaPA2wcT2Dz4WAnTqUY.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/NtrYimAAchvxtkWhhcCRLM.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/7ZwJ4oDCGCCbkPHTWUUyWn.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/bv47GKPZaQCEyubVrk2Dwz.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/U39qcVaRzd8fdRPeVZk256.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/F7NBwke9Ve4kPAajrC6H6H.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/27e9fuyg5UJxe485miXuah.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/J7go6EKqPasKyjEJMbaeJd.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kVhyyxSFP93bAm8ZLbNpr6.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/96Sk25fFPi2xPqBoYeLqWv.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/fyAVCRN2Nb9aj4NmhcG6yz.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/EefZAUjqSiEAvnphcayTje.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/NDjdHSR7tFkzkFBR3NCz6h.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RN2QdnM5K2anacQ2NURPAH.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/jURFuSzzV3w97CXA4XnjMQ.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Tiw6FnJHwSMFdSdSjcFUiv.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mYB8tDeAVgyXGWRihtXcFY.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/fk3MY5WihfbDc5BbgAQ3Vq.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XFhgVvqznfJX7xr3UtunHN.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/4GM7Q5emQcsdgpWVRkPUuB.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GNFr8C2cc9PUwEk9eP7DKR.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6vNWwGruKYPH4sA3ni39iA.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/VYjqHiaQCdTB8YDpSVCk3M.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Kqerd7ueqfph9CpibxwqZr.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/N4ovo9BUyrNYiSkE6uwafR.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/C7TGrF9eAhNHwWEXy6w6bP.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/j5Bt4TDtsEPLwjK6tSeDE6.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/BFB6SabNPe7QyRfvtcUGnB.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/LFfgKnoRpgqEjYFfo46UgB.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/DnYYWjSiTRPGPwswyrYNz8.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nF3tJbLfNQdaVM4jdhb3Ro.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/K3q7R7ThZ7k8DzoGZJH5fz.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/2YnWD25xxJxF3VZeF34ink.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3kzxQP4RRg244HCYKBDZGA.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/fQkEcEF9szZAexGqorpkg2.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XtheoVX4ctaGkkys5mk7X8.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/J4z6Xao2EzdctXZ7Rq3qEu.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8J6F43t6rVuX7DbBDcS4Uv.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/2K7wPydz8prb3B6eQXNkz5.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8Efz4DDwQjthdeDtepxPEp.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/F3EzUjU7NCKMnoHAeX4Ljm.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/TJGhcDRhNpgR2R4eCtYsyF.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Qmd3FpknsfGHC2of4ecizS.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/VuiHwb3HFbFTwNbtUcxzED.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/7mpwiZPJPkCotJP7QSEMxH.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/h542ETBYWjN4DV6SETX5xG.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/cPu3VSysvf3TwVVnhogQMe.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/V4HgkAj9xeiZsQnBsijRLU.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/e6njTUuEXWdMDTxZ9bQnMa.wav,unknown,"[""mobile_number-7259399144""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/KaujbcbBjy676Np9rT5pDG.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/aNng8oM7xKKj3y89hdBjzt.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/MvYqPrgo8prgKLEDFAbxmZ.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3yeVKGGqsaVp73M7RjAw9v.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AL8kZjD4rtHoNJCh4QmpuC.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/iKS9YCChETuNfjrw34VWcW.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/gRn6WrDzCzgjZTvttNA6Mv.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/aCEfYPgwKzJxtkWftyQKJD.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nKFhYoMwtiDcWmbgibjy5f.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ZC2UWrzx6hytFnWtrNkd5b.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hEHTdeTpa43YYDy2MLiF9K.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/BFZcHPg9EBWHUkYvS7eokP.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XFmG3p8S6vBPc2QVgB5DDL.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/DxinQSNbaoiGjsyJnJ5Mir.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/SU2RorqzGx8Ju8hS244ibw.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/SZae8fdqEg79p3NCSBkoKB.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3Z83bCodxeh8cDscpz37KE.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hk8VDgnnksQVyxz7uafK6m.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/jaazkdbY3tazEGvCEsXPH9.wav,unknown,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XrBzdCHbyS3WpSdJpvkQUz.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/E2SsEbvNFiVj8dF93w35ck.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/9p6v5h6GZtaA9eahXh24CY.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hqmrW9dP93uuVxGXgVAax3.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/9H2cFRK6rcGqgeVPS8Lgr3.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/4p6q8M3ZEBxNix74nwGDPE.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/HcMFf8JEgLfgCiRpY9NiUZ.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/3Ku6qPqRApc7PBDmUERCp9.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/CbX5Xnx5WMmvkkCpjefB5L.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/jtca9UMqp5jkjjNaV3nieX.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/PWBVpaBM2AVPrzunzDnTds.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Hyn5WKJjQPisxWXpwd8tUj.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/EviRBotkBZovjws9HFhxKC.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/UYtgY9CfmPHNWx8YgUHz2t.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/jhno4FNHHo7DaWZrj4nWkC.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/cLZTEdtzm4mbKpFr4NGkEj.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/K7ocFGurjA7qJ99avBkqMG.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/QcuaSPeebiwR2oyCz8GFjQ.wav,unknown,"[""mobile_number-8310482920""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/YWfjBgJhNvuGrhjXWSjsRb.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/EaKZRSuLvmGd8mKgyBcUSH.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/gscNAb5saj2sFqqpgcPFDB.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/W6zZbwgA4GyJohxCHZZi5J.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/d3L2eNUfMKk8DbuqpyGGjX.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/G5C5fQGDLvBSN4L88hMwn5.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/bUbqyudASAcpuf6W6d2jWd.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/7ZtQAuGmQLKBz72omppksr.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/e3L5iRLk8cvHmu7Juq7t3z.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/cq6saumJzJXaBS4WXv5WdG.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hmP9xpkeqUd4ECBU8j8mQ5.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/JsBXJwEYK6ckk8BDemZNzp.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/m2JTLM4UsAVCSLAb6mKWCv.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/i2VhMSJTiCsJvpcC85DsLj.wav,unknown,"[""mobile_number-8825744732""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nYQJzyn2nQaLapYjAgNNC7.wav,unknown,"[""mobile_number-8825744732""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RmkNFUmMeofCuRgNJMv7yL.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Wf9bVsZKjTCYBZ43mnnbQa.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kjdR8fG9qGQLMGyvoNppdU.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/iEj34GqofcNMrJQnM9cyrK.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/KHKDkCwpDknqc9W8YDi9ZA.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/EhAM3RrZoTVQuYFMBC99dW.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ZRgTr32DCobC3GpYKskFAJ.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/5UnGw3Xp7fCXqb2kdvdxft.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/d76ja6cUvdXrBoJRUzuADc.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/G6wk5BHFn96CKPTcb63ctD.wav,balance_check,"[""bank_name-Punjab National Bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/jqRkF6E9nJKVAGSs3PC3xa.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/YpXtiNXrQzYLNhnf4fofNL.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Huwqf3gtUZPkr94C9o7te5.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RG8eGsNCiYdyhBea8kdkkM.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/FAewNf2j7ptx4PEZoFppYq.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GfxtybsAmXrgiptG4ArFC8.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/W6xhFoCjPvySRpmqgFLdF6.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GqsFtcJpHwPHha8QGQGwYd.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/9azZSq7Vr9J9vvscEssDks.wav,unknown,"[""mobile_number-6362609873""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/TRSkPdEeVyDiVX3mSi8Hxm.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/i8kLaxZeAvuTZR2KHcLBZw.wav,unknown,"[""mobile_number-6362609873""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6LpXm9cbWeLupFLxfrpumA.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ccMVmSMbav6NXG7cp593VN.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/dyuxdSE2fJVrvgX8pLLvRB.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GdXJi2A6bGbPPHEfhbZpah.wav,unknown,"[""mobile_number-6362609873""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/JcrmF5evMY84hyD85BqYou.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/gtnHyjtPEW3RjSTThSvW8z.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/WrMGaBQVMBWHvLEoRW9A8u.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/TBf8DDrK6mUQrU4PF5asV7.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/NcmBWUMxDWRJt4ghfwoogM.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/TDMmhduQ7Q8nmWmyT2gXCv.wav,balance_check,"[""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/B87niDxJstLWLLTV7Jnexj.wav,balance_check,"[""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/epaB3eGtRy474QuxvA5V9e.wav,balance_check,"[""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/X3on4QQWWCQouWrfz5q2MN.wav,balance_check,"[""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/VZcbqLH3JjZHWUvi4XCSHj.wav,balance_check,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/LcVxUWbsCWVqiTvNAJ8agH.wav,p2p_transfer,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ADZX6CaTinUZbC63doi3Qd.wav,balance_check,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/PuyYTRbGRFUeuARCn5HKPh.wav,balance_check,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/47XEzrQ3QD6WhaDrrKZszT.wav,balance_check,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0009.wav,mobile_recharge_prepaid,"[""bank_name-bank of baroda""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0010.wav,mobile_recharge_prepaid,"[""amount_of_money-600"", ""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0011.wav,mobile_recharge_prepaid,"[""amount_of_money-1000"", ""bank_name-bank of maharashtra""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0012.wav,mobile_recharge_prepaid,"[""amount_of_money-1000"", ""bank_name-punjab national bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0013.wav,mobile_recharge_prepaid,"[""amount_of_money-500"", ""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0014.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0015.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0016.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0017.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0019.wav,p2p_transfer,"[""amount_of_money-500""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0020.wav,fastag_recharge,"[""vehicle_number-hp11ag2141""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0022.wav,fastag_recharge,"[""vehicle_number-mh06gb1122""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0023.wav,fastag_recharge,"[""vehicle_number-rj04gz1145""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0024.wav,mobile_recharge_prepaid,"[""amount_of_money-20"", ""mobile_number-7716230987"", ""telephone_operator-jio""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0025.wav,mobile_recharge_prepaid,"[""amount_of_money-20"", ""mobile_number-8945234096"", ""telephone_operator-bsnl""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0026.wav,mobile_recharge_prepaid,"[""amount_of_money-100"", ""mobile_number-8716235409"", ""telephone_operator-airtel""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0027.wav,mobile_recharge_prepaid,"[""amount_of_money-10"", ""mobile_number-9045326178"", ""telephone_operator-vodafone""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0028.wav,fastag_recharge,"[""amount_of_money-200"", ""vehicle_number-br06gb1122""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0029.wav,fastag_recharge,"[""vehicle_number-ga04az1153""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0031.wav,fastag_recharge,"[""vehicle_number-wb11az4151""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0032.wav,fastag_recharge,"[""vehicle_number-pb03bg5412""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0034.wav,fastag_recharge,"[""vehicle_number-kl04az1153""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0035.wav,fastag_recharge,"[""vehicle_number-gz03vk5123""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0038.wav,fastag_recharge,"[""vehicle_number-mh04gz1145""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0039.wav,mobile_recharge_prepaid,"[""amount_of_money-500""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240221-WA0040.wav,p2p_transfer,"[""amount_of_money-200""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240226-WA0008.wav,mobile_recharge_prepaid,"[""amount_of_money-300"", ""bank_name-saraswat bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240226-WA0009.wav,mobile_recharge_prepaid,"[""amount_of_money-500"", ""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240226-WA0010.wav,mobile_recharge_prepaid,"[""amount_of_money-200"", ""bank_name-indian bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240226-WA0013.wav,fastag_recharge,"[""amount_of_money-1000"", ""vehicle_number-ka55az5635""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320241.wav,p2p_transfer,"[""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202410.wav,mobile_recharge_postpaid,"[""bank_name-bank of maharashtra""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202411.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202412.wav,p2p_transfer,"[""amount_of_money-150"", ""bank_name-bank of baroda""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202413.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202414.wav,gas_payment,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202415.wav,p2p_transfer,"[""amount_of_money-350"", ""bank_name-axis bank"", ""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202416.wav,p2p_transfer,"[""mobile_number-9881394284""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202417.wav,p2p_transfer,"[""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320242.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn2603202420.wav,p2p_transfer,"[""bank_name-bank of baroda"", ""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320243.wav,p2p_transfer,"[""mobile_number-9818213484""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320245.wav,p2p_transfer,"[""mobile_number-9849849812""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320246.wav,p2p_transfer,"[""bank_name-bank of baroda"", ""bank_name-state bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUDKn260320247.wav,p2p_transfer,"[""bank_name-axis bank"", ""bank_name-bank of maharashtra""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/CarAY4qbqDLCrZDmfaqfm5.wav,mobile_recharge_prepaid,"[""telephone_operator-bsnl""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/c2pgVsGdRGhajJGVxtzW77.wav,mobile_recharge_prepaid,"[""telephone_operator-vodafone""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ecNy3e4mkBWZCh9yDo3Y9W.wav,mobile_recharge_prepaid,"[""telephone_operator-vodafone""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/99hVfuh8Yof9bupQzG4WYw.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/77kjhimqm4VuzLxyV3X6Ng.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/49ZrNHNfHYcv4RHaPQNJie.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/BWTVdBhiXQv35pxsstfhs4.wav,unknown,"[""mobile_number-9611728353""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/UPmrkuqjFGWm4xGatYJ8TD.wav,unknown,"[""mobile_number-9483802817""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/iTT7C97BJDb2MbAtkkCtxR.wav,mobile_recharge_prepaid,"[""amount_of_money-100"", ""telephone_operator-jio""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8sPUHHP695tmhTSoFZzNt9.wav,mobile_recharge_prepaid,"[""amount_of_money-100"", ""telephone_operator-jio""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/SiogADtkvynKWVfqW2PchP.wav,mobile_recharge_prepaid,"[""telephone_operator-airtel""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/25NdiKKkfczCmv8kLFTRx7.wav,balance_check,"[""bank_name-idfc first bank limited""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/NPeG26UUDXfmijnt3pPLfX.wav,balance_check,"[""bank_name-federal bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/VANdBZoqsCDsEttJHCLjzE.wav,balance_check,"[""bank_name-union bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/D3LrSaMBvmAM6iNgsxRoov.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/R7rZ4d6XCTZHQT4mv9Lo8L.wav,balance_check,"[""bank_name-meghalaya rural bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mSFDBBVoufaroPjvMQAE3t.wav,balance_check,"[""bank_name-manipur gramin bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Cqdu7V6i65TnUeD2pSVeSr.wav,balance_check,"[""bank_name-kerala gramina bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ALo9Sey5FpprnUMTQBKMiY.wav,balance_check,"[""bank_name-kotak mahindra bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/aiiUGdTNz2U9KwhS8Uyc7Y.wav,balance_check,"[""bank_name-bank of maharashtra""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/FELFCCYisH35rpL4wpncnQ.wav,balance_check,"[""bank_name-bank of india""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/WsJsGuTVJ5H5BiaUAyWqfR.wav,balance_check,"[""bank_name-indian bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/DWYZeArJtVFuGTLqNZ6pnM.wav,balance_check,"[""bank_name-canara bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/TUm7KuKd4YfQ5SJdCPDTFe.wav,balance_check,"[""bank_name-hdfc bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XHmWHLcds3dZZM2dE49nR9.wav,balance_check,"[""bank_name-icici bank""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/dmVGgNB4nLX4pEe34Wungy.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mjrWmiFF8gimH4pRYuw9FV.wav,balance_check,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/f2AYjWSQP4ppDwRcFJGN4D.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/UvzDW5fPoSEbxKt7vr4azm.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/5rHCQ9UVN4p32umJM9Zndx.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ZKmnfCarNVoSjJnj3Sa2DW.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mx3fQQ9VuHdENKxuiFobUT.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/XdmqdJqYR4nMHKfSseyizT.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/QkMaqAUwHVRykD4rDoYtgF.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/brdEuHtjqBT6uzazdjkUS6.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/cWBuzyMZUVcDfxUkeckS9C.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6xYRvvxLxjnFN6Sx6bTvwj.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/dDWzLCXME2u7UXtmcPSC8C.wav,fastag_recharge,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kanada_n2_mobile_number_7852.wav,unknown,"[""mobile_number-7857261033""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kanada_n39988406160.wav,unknown,"[""mobile_number-9988440616""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kanada_n4_934778.wav,unknown,"[""mobile_number-9347722778""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_bharat_qw.wav,gas_payment,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_hp_er.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_hp_mnb.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_hp_we.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_indane_qwr.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_indian_rt.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_indian_yu.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_jyoti_yu.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_gas_payment_jyoti_yut.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_14_lkj_female.wav,p2p_transfer,"[""amount_of_money-14""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_280_nbv.wav,p2p_transfer,"[""amount_of_money-280""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_390_nbv.wav,p2p_transfer,"[""amount_of_money-390""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_405_lkj.wav,p2p_transfer,"[""amount_of_money-405""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_630_mnb.wav,p2p_transfer,"[""amount_of_money-630""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_700_bvc.wav,p2p_transfer,"[""amount_of_money-700""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_702_xzc.wav,p2p_transfer,"[""amount_of_money-702""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_880_nbv.wav,p2p_transfer,"[""amount_of_money-880""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_902_mnb.wav,p2p_transfer,"[""amount_of_money-902""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_99_lkj.wav,p2p_transfer,"[""amount_of_money-99""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_99_lkj_female.wav,p2p_transfer,"[""amount_of_money-99""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_cxz.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_p2p_xzc.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GSZ244VkhJQgM8E2sDSyMD.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/bM6shH6zSM9GtVQAKA6Nz4.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/nrk6oj4keYXw58ibZUXLeE.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/LckWLeR8a5oFyWAetwAxwP.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/5sZD68Kdt7RxcBBHvZ6t4S.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6chjJzzWTrtG2rYqfGEBHu.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_ert.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_fgh.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_ftr.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_ghj.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_ghy.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_iop.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_pa.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_qaz.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_qwe.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_rty.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_tyu.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_uio.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_wer.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_mobile_recharge_yui.wav,mobile_recharge_prepaid,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_dl19gu4048.wav,unknown,"[""vehicle_number-dl19ju4048""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_dl46gl6143.wav,unknown,"[""vehicle_number-dl46gl6143""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_ka64la7788.wav,unknown,"[""vehicle_number-ka64la7788""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_kl61ll69665.wav,unknown,"[""vehicle_number-kl61ll6965""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_kn34tn3456.wav,unknown,"[""vehicle_number-kn34tn3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_nl94rl5560.wav,unknown,"[""vehicle_number-nl94rl5560""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/kn_vehiclenumber_rj94nj5560.wav,unknown,"[""vehicle_number-rj94nj5560""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ZJPQ5Wq44UKts4j23svZoj.wav,unknown,"[""vehicle_number-kn12ll4455""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/oCTRHUZaCjFfdPFLSUBVDU.wav,unknown,"[""vehicle_number-ap26kz5939""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/HeUgVyUQPMBgeJe6rk6Bvh.wav,unknown,"[""vehicle_number-kn11lz4455""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/26B84CVThEYk6SrjGTBrxQ.wav,fastag_recharge,"[""vehicle_number-ap12kl1234""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-B5Jv5B5jrse99jpvZm36bx.wav,unknown,"[""amount_of_money-35""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-2eVzx5A3XtDxA3yPK5AAjP.wav,unknown,"[""amount_of_money-135""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-QuG6yJR6m6ydWrSpmZZxUL.wav,unknown,"[""amount_of_money-25""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-YFtwhrcGUr86zXWsFnhdPB.wav,unknown,"[""amount_of_money-325""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-mpwKDCptZPqe77usmuLz53.wav,unknown,"[""amount_of_money-9""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-dETwfpwjyqT39SUACjkpN5.wav,unknown,"[""amount_of_money-930""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-UnpPR8Y4ypReU8isXeQVyN.wav,unknown,"[""amount_of_money-360""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-kXJW5hMWaFouEESQgqKLAY.wav,unknown,"[""amount_of_money-660""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-URpwZmPRru3Y4roNveDy9A.wav,unknown,"[""amount_of_money-70""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Q9Wrras38nJ39XyfP8kSPk.wav,unknown,"[""amount_of_money-170""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Y8iZpCsXTLUKNnLhaMdiga.wav,unknown,"[""amount_of_money-99""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-YpNxCPLFVcPtiztxcJyPuV.wav,unknown,"[""amount_of_money-350""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-a6LUTuNaUtmBo9h9Xt4rrk.wav,unknown,"[""amount_of_money-50""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-9p2ijqcD4yvTkzMMCHXMgD.wav,unknown,"[""amount_of_money-190""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-fKGyTwkqg6nCxUuP4sxMGH.wav,unknown,"[""amount_of_money-190""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-QQoijdqV5ZMMuVPnSyUU6n.wav,unknown,"[""amount_of_money-390""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-QBudGr5ZXC5sfrQPuEphsn.wav,unknown,"[""amount_of_money-550""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-HeLmS8YBhuYvmdpnpHmuiC.wav,unknown,"[""amount_of_money-550""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-NiATD7Gbx2fjaVzPG6yy4b.wav,unknown,"[""amount_of_money-500""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-EwpzQGDHAAkz7qnkKaHavN.wav,unknown,"[""amount_of_money-300""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-S2gxQnZWc2k79ptPvjWBch.wav,unknown,"[""amount_of_money-745""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Gerf8jUPpT9JpVsnyRiyDv.wav,unknown,"[""amount_of_money-587""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-3FvMf5xrud9YDMEfRHigjg.wav,unknown,"[""amount_of_money-579""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-YNu7V9EqpnJHsDW26rrsYP.wav,unknown,"[""amount_of_money-555""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Mk5RQs6M3bBk3hLGL9p8T6.wav,unknown,"[""amount_of_money-500""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4DJVbpKSeaGDi83ize5Pdw.wav,unknown,"[""amount_of_money-475""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-JFigo6LzwMCLNeCjHxF8A7.wav,unknown,"[""amount_of_money-285""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-gyK3gGnyFGUjJiYWnhb4qG.wav,unknown,"[""amount_of_money-165""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-E7F7tT5CTVLLekxwi7APJw.wav,unknown,"[""amount_of_money-50""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4xmn5YZy6tn3e3rjujwfcZ.wav,unknown,"[""amount_of_money-46""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-3KNXVBwyrV4mQBibcth4Zq.wav,unknown,"[""amount_of_money-745""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-V6VZYRL9UHHMX99TCWMYEL.wav,unknown,"[""amount_of_money-285""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-gGU2RaKWBNd2ZTV8tryr2q.wav,unknown,"[""amount_of_money-92""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-DSjqxirexoz3c2cJxJVUNF.wav,unknown,"[""amount_of_money-177""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Y5KSkUJL8J9sqBDp88hnrX.wav,unknown,"[""amount_of_money-174""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-PCMB6r4C7ucfqhZjmYfgYT.wav,unknown,"[""amount_of_money-182""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-PsyByhR3fwbkXwaQhREyFn.wav,unknown,"[""amount_of_money-50""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-GbytJsu2rnRxnUxavYJKXa.wav,unknown,"[""amount_of_money-46""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-MZw8Nuu4eqN99SRrLqTLLh.wav,unknown,"[""amount_of_money-69""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-3HLFyqMCDsJ34Pq2zfh8iP.wav,unknown,"[""amount_of_money-469""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-DuLrRvfWKTSSnfZt4Yigwr.wav,unknown,"[""amount_of_money-478""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4xmn5YZy6tn3e3rjujwfcZ.wav,unknown,"[""amount_of_money-46""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4xmn5YZy6tn3e3rjujwfcZ.wav,unknown,"[""amount_of_money-46""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-3KNXVBwyrV4mQBibcth4Zq.wav,unknown,"[""amount_of_money-745""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-V6VZYRL9UHHMX99TCWMYEL.wav,unknown,"[""amount_of_money-285""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AP20TN4321.wav,unknown,"[""vehicle_number-ap20tn4321""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AR21DL8765.wav,unknown,"[""vehicle_number-ar21dl8765""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/BR23GA9876.wav,unknown,"[""vehicle_number-br23ga9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/CG25KA2109.wav,unknown,"[""vehicle_number-cg25ka2109""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/CH24HP6543.wav,unknown,"[""vehicle_number-ch24hp6543""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/DL27MP3456.wav,unknown,"[""vehicle_number-dl27mp3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GA28CH6789.wav,unknown,"[""vehicle_number-ga28ch6789""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/GJ29TG5432.wav,unknown,"[""vehicle_number-gj29tg5432""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/HP31ML1234.wav,unknown,"[""vehicle_number-hp31ml1234""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/HR30OD9876.wav,unknown,"[""vehicle_number-hr30od9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/JH33RJ8901.wav,unknown,"[""vehicle_number-jh33rj8901""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/JK32PY5678.wav,unknown,"[""vehicle_number-jk32py5678""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/8yGCxxugtf9uqf9hju4WHm.wav,unknown,"[""vehicle_number-br01cl6620""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/7C4uLiVaSZVFh5RfAP4Kab.wav,unknown,"[""vehicle_number-ka12ab3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/HgWQuSTdEmW6dqmgueoqGg.wav,unknown,"[""vehicle_number-up16k6882""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/UwCyz3JwDjytk5PhNkeLZv.wav,unknown,"[""vehicle_number-aa05mw5489""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/eeV85ban5Q7pndJV84fq6i.wav,unknown,"[""vehicle_number-up14fw1443""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/Cu7Q5ALR5yxrnAeWNGv6UE.wav,unknown,"[""vehicle_number-pb10el0750""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-CgxZ384jTmxpxvhBNfSFes.wav,unknown,"[""vehicle_number-gj27be2430""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/YA7QYqWxNs7d6XY7SssQXu.wav,unknown,"[""vehicle_number-up05ij2109""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hAZkhGtjDhjMCUfTdStEa5.wav,unknown,"[""vehicle_number-dl03ef9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/5YV2yYHw2643qck7YSqQdh.wav,unknown,"[""vehicle_number-jh10as4433""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/mDy3zZsjZY74xqyDE3vdTu.wav,unknown,"[""vehicle_number-up14fw1443""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/RSjmZthqjqgcyaAJFg3yjE.wav,unknown,"[""vehicle_number-rj02ce0303""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ekY6BokorptAkQYAezNHAa.wav,unknown,"[""vehicle_number-rj07cc6955""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-AN19JK5678.wav,unknown,"[""vehicle_number-an19jk5678""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-AP20TN4321.wav,unknown,"[""vehicle_number-ap20tn4321""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-AR21DL8765.wav,unknown,"[""vehicle_number-ar21dl8765""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-AS22UP1234.wav,unknown,"[""vehicle_number-as22up1234""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-BR23GA9876.wav,unknown,"[""vehicle_number-br23ga9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-CG25KA2109.wav,unknown,"[""vehicle_number-cg25ka2109""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-DL27MP3456.wav,unknown,"[""vehicle_number-dl27mp3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-GA28CH6789.wav,unknown,"[""vehicle_number-ga28ch6789""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-GJ29TG5432.wav,unknown,"[""vehicle_number-gj29tg5432""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-HP31ML1234.wav,unknown,"[""vehicle_number-hp31ml1234""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-HR30OD9876.wav,unknown,"[""vehicle_number-hr30od9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-JH33RJ8901.wav,unknown,"[""vehicle_number-jh33rj8901""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-JK32PY5678.wav,unknown,"[""vehicle_number-jk32py5678""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-KA34HP2345.wav,unknown,"[""vehicle_number-ka34hp2345""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-LA36CG9012.wav,unknown,"[""vehicle_number-la36cg9012""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-LD37HR3456.wav,unknown,"[""vehicle_number-ld37hr3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-MH38JH7890.wav,unknown,"[""vehicle_number-mh38jh7890""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-ML39GJ1234.wav,unknown,"[""vehicle_number-ml39gj1234""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-MP41AN9012.wav,unknown,"[""vehicle_number-mp41an9012""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-MZ42DL3456.wav,unknown,"[""vehicle_number-mz42dl3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-HR30OD9876.wav,unknown,"[""vehicle_number-hr30od9876""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-or-30042024-JH33RJ8901.wav,unknown,"[""vehicle_number-jh33rj8901""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/DL27MP3456.wav,unknown,"[""vehicle_number-dl27mp3456""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-P8nqzjRH6cbdr9a4QBz8ub.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/QXsN4rAy2dvbAMLxtzBu4P.wav,p2p_transfer,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/AUD-20240201-WA0027.wav,p2p_transfer,"[""amount_of_money-300""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/YTwAyZPn6WBw9QJzeb7Vzp.wav,unknown,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/eGuH7iR3qwNDzvQTYCSUhR.wav,unknown,"[""lpg_gas_provider_name-bharat petroleum corporation ltd.""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/4tmmuVknxJHzif2SqRqWgx.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/6BeFyZqKZLifZJiTqxypAW.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/SkHSPeBUkJ7b28D22szJa5.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/L7hnHCjTfQ3Y4ghvJ6dPrp.wav,gas_payment,[]
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/ExorE4xhUWAbfanVQ3uCrj.wav,gas_payment,[]
