@@ -18,7 +18,7 @@ RUN python -m pip install git+https://github.com/huggingface/optimum.git#egg=opt
 RUN pip install --no-cache-dir --force-reinstall "faster-whisper @ https://github.com/guillaumekln/faster-whisper/archive/3adcc12d0f91369446a624e33185c555facc8ed2.tar.gz" joblib charset-normalizer==3.1.0
 RUN pip uninstall -y onnxruntime && pip install --no-cache-dir onnxruntime-gpu==1.13.1 numpy==1.23.1
 RUN pip install nemo_toolkit['all']==1.21.0
-RUN git clone https://github.com/haridassaiprakash/indic-punct.git && cd indic-punct && git checkout deployment && bash install.sh && pip install --no-cache-dir pynini && python setup.py bdist_wheel && pip install -e .
+RUN git clone https://github.com/haridassaiprakash/indic-punct.git && cd indic-punct && git checkout main && bash install.sh && pip install --no-cache-dir pynini && python setup.py bdist_wheel && pip install -e .
 RUN pip install pyyaml accelerate protobuf https://github.com/kpu/kenlm/archive/master.zip transformers -U
 RUN pip install protobuf==3.20 
 ARG INDICPUNCT_COMMIT_HASH
