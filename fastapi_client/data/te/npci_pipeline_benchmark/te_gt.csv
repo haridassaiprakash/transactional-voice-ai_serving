@@ -83,12 +83,12 @@ https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Z5VkuBJ
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-G4CUW4dmWZ2e3CQKpwzciP.wav,p2p_transfer,"[""bank_name-canara bank""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-9fBy578PPYRCEDQAhjKTaw.wav,p2p_transfer,"[""bank_name-state bank of india""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-676jTDjGJpX5Y3SdESJ7Zc.wav,gas_payment,"[""lpg_gas_provider_name-hindustan petroleum corporation ltd.""]"
-https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-ebBdVBNDFcHC8gtXMxag4k.wav,gas_payment,"[""lpg_gas_provider_name-indian oil corporation ltd""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-ebBdVBNDFcHC8gtXMxag4k.wav,gas_payment,[]
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-VocmXv2TYcz8zQqiQzM4w5.wav,gas_payment,"[""lpg_gas_provider_name-jyothi gas pvt. ltd""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-aqi8d9MvpPE6i6yxWei4dT.wav,mobile_recharge_prepaid,"[""mobile_number-9347722778""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-UPiY9UQeiG6KJGHf5tpo7w.wav,mobile_recharge_prepaid,"[""telephone_operator-jio""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-m5QaVoTdmkxPk8qeUDo4Vz.wav,mobile_recharge_prepaid,"[""telephone_operator-vodafone""]"
-https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-E2EPARt74G9E7azE79ZyP5.wav,mobile_recharge_prepaid,"[""telephone_operator-airtel""]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-E2EPARt74G9E7azE79ZyP5.wav,mobile_recharge_prepaid,[]
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-4nagXZiV53XcxFR4S3SNt7.wav,mobile_recharge_prepaid,"[""amount_of_money-200"", ""telephone_operator-jio""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-FCGnycb8kfnQx27dnFFYNu.wav,fastag_recharge,"[""vehicle_number-ap26az5939""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-Vpse5NCkSv5niQFGVKu2dE.wav,gas_payment,"[""pipe_gas_provider_name-adani total gas limited""]"
@@ -263,7 +263,7 @@ https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-8hUTcbe
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-UbxnbUCw7rsfEEGyhHs7df.wav,balance_check,"[""bank_name-state bank of india""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-bxJJ66J6SMZFQpJjXN2nYa.wav,balance_check,"[""bank_name-dhanlaxmi bank""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/audio-KEFkNNwrkR5WLSVjnuTyUz.wav,balance_check,"[""bank_name-indusind bank""]"
-https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/FWemnf43DXZmAv74gyZdRb.wav,p2p_transfer,"[""bank_name-indusind bank"", ""bank_name-jammu & kashmir bank"" ]"
+https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/FWemnf43DXZmAv74gyZdRb.wav,p2p_transfer,"[""bank_name-indusind bank"", ""bank_name-jammu & kashmir bank""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/iSRRGcw8G6u5JMADcUBEEN.wav,p2p_transfer,"[""bank_name-india post payments bank"", ""bank_name-indian bank""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/hAApFtQLebMPTpPiQBFDKJ.wav,p2p_transfer,"[""bank_name-indian bank"", ""bank_name-indian overseas bank""]"
 https://dhruvacentrali0960249713.blob.core.windows.net/logsvoiceai/dsLAaeU9VmaGWrB2TCHbLy.wav,p2p_transfer,"[""bank_name-icici bank"", ""bank_name-idbi bank""]"
