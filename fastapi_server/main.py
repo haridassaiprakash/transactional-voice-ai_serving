@@ -27,6 +27,8 @@ file_handler.setLevel(logging.ERROR)
 # Create a logging format
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
+
+# Add the file handler to the logger
 logger.addHandler(file_handler)
 
 # ## Read environment variables only during development purpose ##
@@ -37,17 +39,11 @@ STANDARD_SAMPLING_RATE = int(os.environ["STANDARD_SAMPLING_RATE"])
 STANDARD_BATCH_SIZE = int(os.environ["STANDARD_BATCH_SIZE"])
 INFERENCE_SERVER_HOST = os.environ["INFERENCE_SERVER_HOST"]
 DEFAULT_API_KEY_VALUE = os.environ["DEFAULT_API_KEY_VALUE"]
+# LOGGER_DB_PATH = os.environ["LOGGER_DB_PATH"]
 # Logging setup
 ENABLE_LOGGING = os.environ.get("ENABLE_LOGGING", "false").lower() == "true"
 if ENABLE_LOGGING:
-    from azure.storage.blob import BlobServiceClient
-
-    azure_account_url = f'https://{os.environ["AZURE_BLOB_STORE_NAME"]}.blob.core.windows.net'
-    blob_service_client = BlobServiceClient(
-        azure_account_url, credential=os.environ["AZURE_STORAGE_ACCESS_KEY"]
-    )
-
-    AZURE_BLOB_CONTAINER = os.environ["AZURE_BLOB_CONTAINER"]
+    LOGGER_LOCAL_PATH = "./app/metadata_log"  # Change this to your local logs directory
 
 ## Initialize Triton client for a worker ##
 from inference_client import InferenceClient
@@ -120,11 +116,23 @@ async def inference(request: InferenceRequest, response: Response):
 
         if enable_logging:
             try:
-                audio_blob_path = f"{metadata['input_id']}/audio.{request.config.audioFormat}"
-                blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=audio_blob_path)
-                blob_client.upload_blob(file_bytes)
+                # Create unique directories for each audio and metadata log
+                logs_base_dir = os.path.join(LOGGER_LOCAL_PATH, metadata['input_id'])
+                audio_log_path = os.path.join(logs_base_dir, f"audio.{request.config.audioFormat}")
+                metadata_log_path = os.path.join(logs_base_dir, "metadata.json")
+
+                # Create directories if they don't exist
+                os.makedirs(logs_base_dir, exist_ok=True)
+
+                # Write audio log
+                with open(audio_log_path, "wb") as audio_file:
+                    audio_file.write(file_bytes)
+
+                # Write metadata log
+                with open(metadata_log_path, "w") as metadata_file:
+                    json.dump(metadata, metadata_file, indent=4)
             except Exception as e:
-                logger.error(f"Error uploading audio blob: {e}")
+                logger.error(f"Error saving logs locally: {e}")
 
         raw_audio = get_raw_audio_from_file_bytes(file_bytes, standard_sampling_rate=STANDARD_SAMPLING_RATE)
 
@@ -168,11 +176,11 @@ async def inference(request: InferenceRequest, response: Response):
                         metadata_list[input_index]["result"] = result.model_dump(mode="json")
                         result_json = metadata_list[input_index]["result"] 
                         result_json["language"] = language
-                        metadata_blob_path = f"{metadata['input_id']}/metadata.json"
-                        blob_client = blob_service_client.get_blob_client(container=AZURE_BLOB_CONTAINER, blob=metadata_blob_path)
-                        blob_client.upload_blob(json.dumps(result_json, indent=4))  # Upload the JSON data to Azure Blob Storage
+                        metadata_log_path = os.path.join(logs_base_dir, "metadata.json")
+                        with open(metadata_log_path, "w") as metadata_file:
+                            json.dump(result_json, metadata_file, indent=4)
                     except Exception as e:
-                        logger.error(f"Error uploading metadata blob: {e}")
+                        logger.error(f"Error saving metadata locally: {e}")
         except Exception as e:
             logger.error(f"Error processing batch: {e}")
 
@@ -181,3 +189,4 @@ async def inference(request: InferenceRequest, response: Response):
         output=final_results,
         status=ResponseStatus(success=True),
     )
+
