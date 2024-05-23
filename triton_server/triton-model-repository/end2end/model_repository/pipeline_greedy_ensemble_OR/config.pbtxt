@@ -40,7 +40,7 @@ output {
 ensemble_scheduling {
  step [
    {
-    model_name: "asr_preprocessor_OR"
+    model_name: "asr_preprocessor"
     model_version: -1
     input_map {
       key: "AUDIO_SIGNAL__0"
@@ -60,7 +60,7 @@ ensemble_scheduling {
     } 
   },
   {
-    model_name: "asr_am_OR"
+    model_name: "asr_am_MR"
     model_version: -1
     input_map {
       key: "audio_signal"
