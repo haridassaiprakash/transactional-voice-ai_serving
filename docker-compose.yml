@@ -21,6 +21,7 @@ services:
       - triton
     volumes:
       - ./fastapi_server:/app
+      - ./fastapi_server/metadata_log:/app/logs
 
   triton:
     build: 
