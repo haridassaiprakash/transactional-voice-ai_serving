@@ -118,15 +118,23 @@ async def inference(request: InferenceRequest, response: Response):
             try:
                 # Create unique directories for each audio and metadata log
                 logs_base_dir = os.path.join(LOGGER_LOCAL_PATH, metadata['input_id'])
-                audio_log_path = os.path.join(logs_base_dir, f"audio.{request.config.audioFormat}")
+                print("logs_base_dir", logs_base_dir)
+                audio_log_path = os.path.join(logs_base_dir, "audio.json")
+                print("audio_log_path", audio_log_path)
                 metadata_log_path = os.path.join(logs_base_dir, "metadata.json")
+                print("metadata_log_path", metadata_log_path)
 
                 # Create directories if they don't exist
                 os.makedirs(logs_base_dir, exist_ok=True)
 
                 # Write audio log
-                with open(audio_log_path, "wb") as audio_file:
-                    audio_file.write(file_bytes)
+                audio_json = {
+                    "id": metadata["input_id"],
+                    "base64": base64.b64encode(file_bytes).decode('utf-8'),
+                    "language": language
+                }
+                with open(audio_log_path, "w") as audio_file:
+                    json.dump(audio_json, audio_file, indent=4)
 
                 # Write metadata log
                 with open(metadata_log_path, "w") as metadata_file:
@@ -175,8 +183,10 @@ async def inference(request: InferenceRequest, response: Response):
                     try:
                         metadata_list[input_index]["result"] = result.model_dump(mode="json")
                         result_json = metadata_list[input_index]["result"] 
+                        print("result_json :",result_json)
                         result_json["language"] = language
-                        metadata_log_path = os.path.join(logs_base_dir, "metadata.json")
+                        metadata_log_path = os.path.join(LOGGER_LOCAL_PATH, metadata_list[input_index]["input_id"], "metadata.json")
+                        print("metadata_log_path :", metadata_log_path)
                         with open(metadata_log_path, "w") as metadata_file:
                             json.dump(result_json, metadata_file, indent=4)
                     except Exception as e:
