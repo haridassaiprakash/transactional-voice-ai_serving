@@ -14,14 +14,13 @@ services:
       - AZURE_STORAGE_ACCESS_KEY
       - AZURE_BLOB_STORE_NAME
       - AZURE_BLOB_CONTAINER
-      - LOG_FILE_PATH
     ports:
       - 8008:8008
     depends_on:
       - triton
     volumes:
       - ./fastapi_server:/app
-      - ./fastapi_server/metadata_log:/app/logs
+      - app_data:/app/logs
 
   triton:
     build: 
@@ -32,7 +31,6 @@ services:
     restart: always
     command: tritonserver --model-repository=/models/model_repository --log-file=/logs/log.txt
     environment:
-      - TRITON_LOG_FILE
       - INDICPUNCT_COMMIT_HASH
     expose:
       - 8000
@@ -43,7 +41,7 @@ services:
       - 8002:8002
     volumes:
       - ./triton_server/triton-model-repository/end2end/model_repository:/models/model_repository
-      - ${TRITON_LOG_FILE}:/logs/
+      - app_data:/opt/tritonserver/logs/
     shm_size: '16gb'
     ulimits:
       memlock: -1
@@ -55,3 +53,6 @@ services:
             - driver: nvidia
               device_ids: ['0']
               capabilities: [gpu]
+
+volumes:
+  app_data: {}

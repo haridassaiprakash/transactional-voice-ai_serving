@@ -43,7 +43,7 @@ DEFAULT_API_KEY_VALUE = os.environ["DEFAULT_API_KEY_VALUE"]
 # Logging setup
 ENABLE_LOGGING = os.environ.get("ENABLE_LOGGING", "false").lower() == "true"
 if ENABLE_LOGGING:
-    LOGGER_LOCAL_PATH = "./app/metadata_log"  # Change this to your local logs directory
+    LOGGER_LOCAL_PATH = "./app/logs"  # Change this to your local logs directory
 
 ## Initialize Triton client for a worker ##
 from inference_client import InferenceClient
