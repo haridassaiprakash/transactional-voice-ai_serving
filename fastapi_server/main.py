@@ -82,7 +82,7 @@ api.add_middleware(
 @api.post("/api", response_model=InferenceResponse)
 async def inference(request: InferenceRequest, response: Response):
     language = request.config.language.sourceLanguage
-    enable_logging = ENABLE_LOGGING # and request.controlConfig.dataTracking
+    enable_logging = ENABLE_LOGGING  # and request.controlConfig.dataTracking
     raw_audio_list, metadata_list = [], []
 
     for input_index, input_item in enumerate(request.audio):
@@ -108,6 +108,7 @@ async def inference(request: InferenceRequest, response: Response):
             )
         
         current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
+        date_str = datetime.datetime.now().strftime("%Y-%m-%d")
         metadata = {
             "timestamp": current_timestamp,
             "input_id": f"{current_timestamp}/{shortuuid.uuid()}",
@@ -116,29 +117,24 @@ async def inference(request: InferenceRequest, response: Response):
 
         if enable_logging:
             try:
-                # Create unique directories for each audio and metadata log
-                logs_base_dir = os.path.join(LOGGER_LOCAL_PATH, metadata['input_id'])
+                # Create a date-wise directory for logs
+                logs_base_dir = os.path.join(LOGGER_LOCAL_PATH, date_str)
                 print("logs_base_dir", logs_base_dir)
-                audio_log_path = os.path.join(logs_base_dir, "audio.json")
+                audio_log_path = os.path.join(logs_base_dir, "audio.log")
                 print("audio_log_path", audio_log_path)
-                metadata_log_path = os.path.join(logs_base_dir, "metadata.json")
-                print("metadata_log_path", metadata_log_path)
 
-                # Create directories if they don't exist
+                # Create directory if it doesn't exist
                 os.makedirs(logs_base_dir, exist_ok=True)
 
-                # Write audio log
-                audio_json = {
-                    "id": metadata["input_id"],
+                # Write audio log entry
+                audio_log_entry = {
+                    "Id": metadata["input_id"],
                     "base64": base64.b64encode(file_bytes).decode('utf-8'),
                     "language": language
                 }
-                with open(audio_log_path, "w") as audio_file:
-                    json.dump(audio_json, audio_file, indent=4)
+                with open(audio_log_path, "a") as audio_file:
+                    audio_file.write(json.dumps(audio_log_entry) + "\n")
 
-                # Write metadata log
-                with open(metadata_log_path, "w") as metadata_file:
-                    json.dump(metadata, metadata_file, indent=4)
             except Exception as e:
                 logger.error(f"Error saving logs locally: {e}")
 
@@ -155,7 +151,7 @@ async def inference(request: InferenceRequest, response: Response):
             batch_result = inference_client.run_batch_inference(batch=batches[i], lang_code=language, batch_size=STANDARD_BATCH_SIZE)
             
             for item_index, result_json in enumerate(batch_result):
-                input_index = i*STANDARD_BATCH_SIZE + item_index
+                input_index = i * STANDARD_BATCH_SIZE + item_index
 
                 # Convert intermediate format to final format
                 if "tag_entities" in request.config.postProcessors:
@@ -182,21 +178,26 @@ async def inference(request: InferenceRequest, response: Response):
                 if enable_logging:
                     try:
                         metadata_list[input_index]["result"] = result.model_dump(mode="json")
-                        result_json = metadata_list[input_index]["result"] 
-                        print("result_json :",result_json)
+                        result_json = metadata_list[input_index]["result"]
+                        print("result_json :", result_json)
                         result_json["language"] = language
-                        metadata_log_path = os.path.join(LOGGER_LOCAL_PATH, metadata_list[input_index]["input_id"], "metadata.json")
+                        
+                        # Ensure the source text is decoded properly from Unicode
+                        if "source" in result_json:
+                            utf8_content = result_json["source"].encode('utf-8')
+                            result_json["source"] = utf8_content.decode('utf-8')
+                        print("Transcript : ", result_json["source"])
+                        metadata_log_path = os.path.join(LOGGER_LOCAL_PATH, date_str, "response.json")
                         print("metadata_log_path :", metadata_log_path)
-                        with open(metadata_log_path, "w") as metadata_file:
+                        with open(metadata_log_path, "a") as metadata_file:
                             json.dump(result_json, metadata_file, indent=4)
+                            metadata_file.write("\n")
                     except Exception as e:
                         logger.error(f"Error saving metadata locally: {e}")
         except Exception as e:
             logger.error(f"Error processing batch: {e}")
 
-    
     return InferenceResponse(
         output=final_results,
         status=ResponseStatus(success=True),
     )
-
