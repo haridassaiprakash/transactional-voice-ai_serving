@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Create a file handler
-LOG_FILE_PATH = os.environ["LOG_FILE_PATH"]
+LOG_FILE_PATH = "./app/logs/error.log"
 file_handler = logging.FileHandler(LOG_FILE_PATH)
 file_handler.setLevel(logging.ERROR)
 
@@ -187,7 +187,7 @@ async def inference(request: InferenceRequest, response: Response):
                             utf8_content = result_json["source"].encode('utf-8')
                             result_json["source"] = utf8_content.decode('utf-8')
                         print("Transcript : ", result_json["source"])
-                        metadata_log_path = os.path.join(LOGGER_LOCAL_PATH, date_str, "response.json")
+                        metadata_log_path = os.path.join(LOGGER_LOCAL_PATH, date_str, "response.log")
                         print("metadata_log_path :", metadata_log_path)
                         with open(metadata_log_path, "a") as metadata_file:
                             json.dump(result_json, metadata_file, indent=4)
