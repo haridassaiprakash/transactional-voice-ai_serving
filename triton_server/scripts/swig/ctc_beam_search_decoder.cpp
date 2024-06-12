@@ -40,6 +40,7 @@
 #include "path_trie.h"
 
 using FSTMATCH = fst::SortedMatcher<fst::StdVectorFst>;
+
 std::vector<std::pair<double, std::vector<int>>> ctc_beam_search_decoder(
     const std::vector<std::vector<double>> &log_probs_seq,
     const std::vector<std::vector<int>> &log_probs_idx, PathTrie &root,
@@ -74,13 +75,15 @@ std::vector<std::pair<double, std::vector<int>>> ctc_beam_search_decoder(
 
     double top_prob = exp(log_prob[0]);
     auto top_id = log_prob_idx[0];
-    if (top_prob >= cutoff_prob && top_id == blank_id)
+    if (top_prob >= cutoff_prob && top_id == blank_id) {
       if (prev_id == blank_id) {
         continue;  // skip this round
-      } else
+      } else {
         prev_id = top_id;
-    else
+      }
+    } else {
       prev_id = -1;
+    }
 
     // loop over chars
     double cur_acc_prob = 0.0;
@@ -130,9 +133,38 @@ std::vector<std::pair<double, std::vector<int>>> ctc_beam_search_decoder(
             float score = 0.0;
             std::vector<std::string> ngram;
             ngram = ext_scorer->make_ngram(prefix_to_score);
-            score = ext_scorer->get_log_cond_prob(ngram) * ext_scorer->alpha;
-            log_p += score;
-            log_p += ext_scorer->beta;
+            // Validate the score to avoid overflow
+            try {
+              score = ext_scorer->get_log_cond_prob(ngram) * ext_scorer->alpha;
+              if (std::isinf(score) || std::isnan(score)) {
+                throw std::overflow_error("Arithmetic overflow in score calculation");
+              }
+            } catch (const std::overflow_error &e) {
+              std::cerr << "Error: " << e.what() << std::endl;
+              score = 0.0;
+            }
+
+            // Validate log_p to avoid overflow
+            try {
+              log_p += score;
+              if (std::isinf(log_p) || std::isnan(log_p)) {
+                throw std::overflow_error("Arithmetic overflow in log_p calculation");
+              }
+            } catch (const std::overflow_error &e) {
+              std::cerr << "Error: " << e.what() << std::endl;
+              log_p = -NUM_FLT_INF;
+            }
+
+            // Validate log_p for beta addition
+            try {
+              log_p += ext_scorer->beta;
+              if (std::isinf(log_p) || std::isnan(log_p)) {
+                throw std::overflow_error("Arithmetic overflow in beta addition");
+              }
+            } catch (const std::overflow_error &e) {
+              std::cerr << "Error: " << e.what() << std::endl;
+              log_p = -NUM_FLT_INF;
+            }
           }
 
           prefix_new->log_prob_nb_cur =
