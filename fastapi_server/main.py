@@ -175,6 +175,14 @@ async def inference(request: InferenceRequest, response: Response):
 
             raw_audio = get_raw_audio_from_file_bytes(file_bytes, standard_sampling_rate=STANDARD_SAMPLING_RATE)
 
+            # Check for empty audio file
+            if len(raw_audio) == 0:
+                logger.error(f"Empty audio file detected: {metadata['input_id']}")
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail={"message": f"Empty audio file detected for input_index: {input_index}"},
+                )
+
             # For now, audio is small in size from NPCI, hence no VAD is required. So proceed directly without splitting
             raw_audio_list.append(raw_audio)
             metadata_list.append(metadata)
@@ -187,6 +195,14 @@ async def inference(request: InferenceRequest, response: Response):
                 
                 for item_index, result_json in enumerate(batch_result):
                     input_index = i * STANDARD_BATCH_SIZE + item_index
+
+                    # Check for empty transcript
+                    if not result_json["transcript"]:
+                        logger.error(f"Empty transcript detected: {metadata_list[input_index]['input_id']}")
+                        raise HTTPException(
+                            status_code=status.HTTP_400_BAD_REQUEST,
+                            detail={"message": f"Empty transcript detected for input_index: {input_index}"},
+                        )
 
                     # Convert intermediate format to final format
                     if "tag_entities" in request.config.postProcessors:
@@ -226,6 +242,8 @@ async def inference(request: InferenceRequest, response: Response):
                         except Exception as e:
                             logger.error(f"Error saving metadata log: {e}")
 
+            except HTTPException as e:
+                raise e
             except Exception as e:
                 logger.error(f"Error processing batch: {e}")
 
@@ -234,6 +252,8 @@ async def inference(request: InferenceRequest, response: Response):
             status=ResponseStatus(success=True),
         )
 
+    except HTTPException as e:
+        raise e
     except Exception as e:
         logger.error(f"Error in inference endpoint: {e}")
         response.status_code = status.HTTP_500_INTERNAL_SERVER_ERROR
