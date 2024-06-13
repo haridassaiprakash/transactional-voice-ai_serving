@@ -23,6 +23,7 @@ RUN pip install pyyaml accelerate protobuf https://github.com/kpu/kenlm/archive/
 RUN pip install protobuf==3.20 
 ARG INDICPUNCT_COMMIT_HASH
 RUN cd indic-punct && git pull && git checkout $INDICPUNCT_COMMIT_HASH
+RUN mkdir /opt/tritonserver/logs
 CMD tritonserver --model-repository=/models/model_repository
 EXPOSE 8001
 EXPOSE 8002

@@ -29,7 +29,7 @@ services:
       args:
         - INDICPUNCT_COMMIT_HASH=${INDICPUNCT_COMMIT_HASH}
     restart: always
-    command: tritonserver --model-repository=/models/model_repository --log-file=/logs/log.txt
+    command: tritonserver --model-repository=/models/model_repository --log-file=/opt/tritonserver/logs/log.txt
     environment:
       - INDICPUNCT_COMMIT_HASH
     expose:
