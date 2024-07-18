@@ -1,6 +1,6 @@
 name: "intent_model_onnx"
 platform: "onnxruntime_onnx"
-max_batch_size: 64
+max_batch_size: 1
 input {
   name: "input_ids"
   data_type: TYPE_INT64
@@ -21,7 +21,5 @@ instance_group {
   count: 1
   kind: KIND_GPU
 }
-
-dynamic_batching { }
 
 default_model_filename: "model.onnx"

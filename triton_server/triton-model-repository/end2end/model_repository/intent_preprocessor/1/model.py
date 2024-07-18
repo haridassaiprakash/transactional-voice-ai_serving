@@ -65,7 +65,7 @@ class TritonPythonModel:
 
              # Get input text
             query = pb_utils.get_input_tensor_by_name(request, "input_text").as_numpy()
-            query = [s[0].decode() for s in query]
+            query = [s.decode() for s in query]
 
 
             features = self.tokenizer(query,max_length=128, 

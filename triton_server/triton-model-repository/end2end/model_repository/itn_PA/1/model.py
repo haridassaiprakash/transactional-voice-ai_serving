@@ -89,7 +89,7 @@ class TritonPythonModel:
         for request in requests:
             # B X T
             in_0 = pb_utils.get_input_tensor_by_name(request, "INPUT_TEXT")
-            input_text = [s[0].decode() for s in in_0.as_numpy()]
+            input_text = [s.decode() for s in in_0.as_numpy()]
             # B X 1
             sent = np.array(inverse_normalize_text(input_text))
             

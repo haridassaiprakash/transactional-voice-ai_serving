@@ -1,11 +1,12 @@
 name: "itn_TE"
 backend: "python"
-max_batch_size: 64
+max_batch_size: 1
 input [
 {
     name: "INPUT_TEXT"
     data_type: TYPE_STRING
     dims: [ 1 ]
+    reshape: {shape: []}
 }
 ]
 

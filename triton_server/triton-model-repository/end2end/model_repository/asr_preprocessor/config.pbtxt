@@ -1,7 +1,7 @@
 name: "asr_preprocessor"
 platform: "pytorch_libtorch"
 default_model_filename: "model.pt"
-max_batch_size: 512
+max_batch_size: 1
 
 input [ {
   name: "AUDIO_SIGNAL__0"
@@ -30,8 +30,12 @@ output [
   }
 ]
 
-
-dynamic_batching { }
+parameters: {
+key: "DISABLE_OPTIMIZED_EXECUTION"
+    value: {
+    string_value: "true"
+    }
+}
 
 instance_group [
     { 
