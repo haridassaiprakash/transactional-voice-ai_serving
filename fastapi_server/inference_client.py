@@ -101,8 +101,8 @@ class InferenceClient:
             for i, sample_result in enumerate(batch_result_asr):
                 result_transcript = sample_result[0].decode("utf-8")
                 result_transcript_itn = batch_result_asr_itn[i][0].decode("utf-8")
-                result_intent = batch_result_intent[i][0].decode("utf-8")
-                result_ner = json.loads(batch_result_entity[i][0].decode("utf-8"))
+                result_intent = batch_result_intent[i].decode("utf-8")
+                result_ner = json.loads(batch_result_entity[i].decode("utf-8"))
                 
                 results_json.append({
                     "transcript": result_transcript,
