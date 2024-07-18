@@ -1,21 +1,23 @@
 name: "asr_am_GU"
-default_model_filename: "model.pt"
-platform: "pytorch_libtorch"
+default_model_filename: "model_GU.plan"
+platform: "tensorrt_plan"
 
-max_batch_size: 32
+max_batch_size: 1
 
 input [
       {
         name: "audio_signal"
         data_type: TYPE_FP32
         dims: [80, -1]
+        is_shape_tensor: false
       },
       
       {
         name: "length"
-        data_type: TYPE_INT64
+        data_type: TYPE_INT32
         reshape: {shape: []}
         dims: [1]
+        is_shape_tensor: false
       }
 ]
 
@@ -23,18 +25,16 @@ output [
       {
         name: "logprobs"
         data_type: TYPE_FP32
-        dims: [-1, 129]
+        is_shape_tensor: false
+        dims: [-1,5633]
       }
 ]
-
-
-dynamic_batching { preferred_batch_size: [8,32] }
-
   
 instance_group [
     { 
     count: 1
-    kind: KIND_GPU 
+    kind: KIND_GPU
+    profile: ["0"]
     }
 ]
 

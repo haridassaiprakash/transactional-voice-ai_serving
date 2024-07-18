@@ -1,10 +1,10 @@
 name: "pipeline_pyctc_ensemble_GU"
 platform: "ensemble"
-max_batch_size: 32 #MAX_BATCH
+max_batch_size: 1 #MAX_BATCH
 input {
   name: "AUDIO_SIGNAL"
   data_type: TYPE_FP32
-  dims: -1#AUDIO_LENGTH
+  dims: [-1]#AUDIO_LENGTH
 }
 input {
     name: "NUM_SAMPLES"
@@ -71,6 +71,18 @@ ensemble_scheduling {
     } 
   },
   {
+      model_name: "asr_conversion"
+      model_version: -1
+      input_map {
+        key: "input"
+        value: "NUM_TIME_STEPS"
+      }
+      output_map {
+        key: "output"
+        value: "NUM_TIME_STEPS_CONVERTED"
+      }
+  },
+  {
     model_name: "asr_am_GU"
     model_version: -1
     input_map {
@@ -79,7 +91,7 @@ ensemble_scheduling {
     }
 	input_map {
 	    key: "length"
-	    value: "NUM_TIME_STEPS"
+	    value: "NUM_TIME_STEPS_CONVERTED"
 	}
     output_map {
       key: "logprobs"
