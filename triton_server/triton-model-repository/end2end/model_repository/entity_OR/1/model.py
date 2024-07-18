@@ -26,9 +26,9 @@ class TritonPythonModel:
             sent_itn = None
             entities_list = []
             for i,s in enumerate(query):
-                sent = s[0].decode("utf-8")
+                sent = s.decode("utf-8")
                 if query_itn is not None:
-                    sent_itn = itn_s[i][0].decode("utf-8")
+                    sent_itn = itn_s[i].decode("utf-8")
 
                 entities = self.entity_recognizer.predict(
                         sent, sent_itn

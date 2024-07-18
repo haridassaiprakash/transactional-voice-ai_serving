@@ -1,6 +1,6 @@
 name: "asr_pyctc_decoder_OR"
 backend: "python"
-max_batch_size: 32
+max_batch_size: 1
 input [
   {
     name: "LOG_PROBS"
@@ -29,8 +29,6 @@ output [
     reshape: { shape: [ ] }
   }
 ]
-
-dynamic_batching { }
 
 instance_group [
   { 
