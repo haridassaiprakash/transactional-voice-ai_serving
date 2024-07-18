@@ -1,7 +1,6 @@
 name: "asr_am_KN"
-default_model_filename: "kn_v1_model.plan"
+default_model_filename: "model_KN.plan"
 platform: "tensorrt_plan"
-
 max_batch_size: 1
 
 input [
